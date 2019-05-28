@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import uuid
 # Required to grant the permission needed to set a book as returned.
 from django.contrib.auth.models import Permission
@@ -6,6 +7,8 @@ from catalog.models import BookInstance, Book, Genre, Language
 # Required to assign User as a borrower
 from django.contrib.auth.models import User
 from django.utils import timezone
+=======
+>>>>>>> 96a8c1313b484338317fdecb88913ff7d1d7c11a
 from django.test import TestCase
 from django.urls import reverse
 
